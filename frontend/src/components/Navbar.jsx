@@ -1,0 +1,1 @@
+export default function Navbar({dark,setDark}){return <header className="nav"><a className="logo" href="#">PK<span>.</span></a><nav><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav><button className="theme" onClick={()=>setDark(!dark)} aria-label="Toggle theme">{dark?'☀':'☾'}</button></header>}
